@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <math.h>
 
-//aqui poner cada quien sus cabeceras de funciones
 int main(){
   int opc;
+  float num1, num2, resultado;
   printf("Bienvenidos a la calculadora\n");
   printf("Selecciona una opcion: \n");
   printf("1. Suma\n");
@@ -18,7 +18,13 @@ int main(){
           //logica de cada uno
         break;
         case 2:
-          //logica de cada uno
+          
+          printf("Ingrese el primer numero: ");
+          scanf("%f", &num1);
+          printf("Ingrese el segundo numero: ");
+          scanf("%f", &num2);
+            resultado= num1-num2;
+            printf("El resultado de la resta es: %.2f\n",resultado);
         break;
         case 3:
           //logica de cada uno
