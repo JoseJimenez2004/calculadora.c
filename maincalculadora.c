@@ -19,7 +19,12 @@ int main(){
   scanf("%d", &opc);
   switch(opc) {
         case 1:
-          //logica de cada uno
+            printf("Ingresa el primer numero: ");
+            scanf("%f", &num1);
+            printf("Ingresa el segundo numero: ");
+            scanf("%f", &num2);
+            resultado = num1 + num2;
+            printf("La suma es: %.2f\n", resultado);
         break;
         case 2:
           printf("Bienvenido a la parte de la Resta\n");
