@@ -18,7 +18,7 @@ int main(){
           //logica de cada uno
         break;
         case 2:
-          
+          printf("Bienvenido a la parte de la Resta\n");
           printf("Ingrese el primer numero: ");
           scanf("%f", &num1);
           printf("Ingrese el segundo numero: ");
