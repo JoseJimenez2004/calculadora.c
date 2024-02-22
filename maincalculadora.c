@@ -1,5 +1,9 @@
 #include <stdio.h>
 #include <math.h>
+#include <wchar.h>
+
+int validacion_factorial();
+int factorial(int);
 
 int main(){
   int opc;
@@ -33,7 +37,7 @@ int main(){
           //logica de cada uno
         break;
         case 5:
-          //logica de cada uno
+          printf("El resultado es: %i\n", factorial(validacion_factorial()));
         break;
         case 6:
           //logica de cada uno
@@ -42,4 +46,27 @@ int main(){
     printf("OPCION INVALIDA\n");
   }
 return 0;
+}
+
+int validacion_factorial(){
+  int num;
+  puts("Hola usuario!");
+  puts("Se le solicita digitar un numero natural al que quiera calcular su factorial: ");
+  scanf("%i", &num);
+
+  while (num < 0){
+    puts("NUmero no valido, intetelo de nuevo:");
+    scanf("%i", &num);
+  }
+
+  return num;
+}
+
+int factorial(int num){
+  if(num == 0)
+    return(1);
+  else if(num == 1)
+    return(num);
+  else
+    return(num * factorial(num - 1));
 }
