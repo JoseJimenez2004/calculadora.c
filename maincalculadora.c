@@ -64,7 +64,7 @@ int main(){
        			{
         			float raiz = sqrt(num);
 			        printf("\nLa raiz cuadrada de %.3f es:\t%.3f \n\n", num, raiz);
-		
+			}
         	break;
     default:
     	printf("OPCION INVALIDA\n");
