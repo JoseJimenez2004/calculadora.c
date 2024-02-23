@@ -48,7 +48,7 @@ int main(){
 	        scanf("%f",&num1);
 	        printf("\n\nIngrese el segundo numero:\t");
 	        scanf("%f",&num2);
-	        	div=divi(num1,num2);
+	        	div=(num1/num2);
 	        printf("\n\nLa division del numero %.4f y el numero %.4f es:\t%.4f \n\n",div);
 		break;
         case 5:
