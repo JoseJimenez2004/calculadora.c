@@ -24,7 +24,7 @@ int main(){
             	scanf("%f", &num1);
             	printf("Ingresa el segundo numero: ");
             	scanf("%f", &num2);
-            	resultado = num1 + num2;
+            		resultado = num1 + num2;
             	printf("La suma es: %.2f\n", resultado);
         break;
         case 2:
@@ -33,7 +33,7 @@ int main(){
           	scanf("%f", &num1);
           	printf("Ingrese el segundo numero: ");
           	scanf("%f", &num2);
-            	resultado= num1-num2;
+            		resultado= num1-num2;
             	printf("El resultado de la resta es: %.2f\n",resultado);
         break;
         case 3:
@@ -41,7 +41,7 @@ int main(){
 	        scanf("%f",&num1);
 	        printf("\n\nIngrese el segundo numero:\t");
 	        scanf("%f",&num2);
-	        div=divi(num1,num2);
+	        	div=divi(num1,num2);
 	        printf("\n\nLa division del numero %.3f y el numero %.3f es:\t%.3f \n\n",a,b,div);
         break;
         case 4:
@@ -51,18 +51,18 @@ int main(){
           	printf("El resultado es: %i\n", factorial(validacion_factorial()));
         break;
         case 6:
-           printf("\n\nIngrese un numero para calcular su raiz cuadrada:\t");
-                 scanf("%f", &num);
-         if (num < 0) {
-           printf("\nNo se puede calcular la raiz cuadrada de un numero negativo.\n");
-       } else
-       {
-        float raiz = sqrt(num);
-        printf("\nLa raiz cuadrada de %.3f es:\t%.3f \n\n", num, raiz);
+          	printf("\n\nIngrese un numero para calcular su raiz cuadrada:\t");
+                	scanf("%f", &num);
+         		if (num < 0) {
+				printf("\nNo se puede calcular la raiz cuadrada de un numero negativo.\n");
+       			} else
+       			{
+        			float raiz = sqrt(num);
+			        printf("\nLa raiz cuadrada de %.3f es:\t%.3f \n\n", num, raiz);
 		
-        break;
+        	break;
     default:
-    printf("OPCION INVALIDA\n");
+    	printf("OPCION INVALIDA\n");
   }
 return 0;
 }
