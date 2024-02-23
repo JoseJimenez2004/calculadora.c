@@ -8,7 +8,7 @@ int factorial(int);
 int main(){
   int opc;
   float divi(float num1,float num2);
-  float num1, num2, resultado;
+  float num1, num2, resultado, mul;
   printf("Bienvenidos a la calculadora\n");
   printf("Selecciona una opcion: \n");
   printf("1. Suma\n");
@@ -37,16 +37,21 @@ int main(){
             	printf("El resultado de la resta es: %.2f\n",resultado);
         break;
         case 3:
-            	printf("\n\nIngrese el primer numero:\t");
+            	printf("\n\nIngrese el primer numero a multiplicar:\t");
+	        scanf("%f",&num1);
+	        printf("\n\nIngrese el segundo numero a multiplicar:\t");
+	        scanf("%f",&num2);
+	        	mul=num1*num2;
+	        printf("\n\nLa division del numero %.3f y el numero %.3f es:\t%.3f \n\n",mul);
+        break;
+        case 4:
+          	printf("\n\nIngrese el primer numero:\t");
 	        scanf("%f",&num1);
 	        printf("\n\nIngrese el segundo numero:\t");
 	        scanf("%f",&num2);
 	        	div=divi(num1,num2);
-	        printf("\n\nLa division del numero %.3f y el numero %.3f es:\t%.3f \n\n",a,b,div);
-        break;
-        case 4:
-          //logica de cada uno
-        break;
+	        printf("\n\nLa division del numero %.4f y el numero %.4f es:\t%.4f \n\n",a,b,div);
+		break;
         case 5:
           	printf("El resultado es: %i\n", factorial(validacion_factorial()));
         break;
