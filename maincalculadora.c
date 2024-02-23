@@ -20,35 +20,35 @@ int main(){
   scanf("%d", &opc);
   switch(opc) {
         case 1:
-            printf("Ingresa el primer numero: ");
-            scanf("%f", &num1);
-            printf("Ingresa el segundo numero: ");
-            scanf("%f", &num2);
-            resultado = num1 + num2;
-            printf("La suma es: %.2f\n", resultado);
+            	printf("Ingresa el primer numero: ");
+            	scanf("%f", &num1);
+            	printf("Ingresa el segundo numero: ");
+            	scanf("%f", &num2);
+            	resultado = num1 + num2;
+            	printf("La suma es: %.2f\n", resultado);
         break;
         case 2:
-          printf("Bienvenido a la parte de la Resta\n");
-          printf("Ingrese el primer numero: ");
-          scanf("%f", &num1);
-          printf("Ingrese el segundo numero: ");
-          scanf("%f", &num2);
-            resultado= num1-num2;
-            printf("El resultado de la resta es: %.2f\n",resultado);
+           	printf("Bienvenido a la parte de la Resta\n");
+          	printf("Ingrese el primer numero: ");
+          	scanf("%f", &num1);
+          	printf("Ingrese el segundo numero: ");
+          	scanf("%f", &num2);
+            	resultado= num1-num2;
+            	printf("El resultado de la resta es: %.2f\n",resultado);
         break;
         case 3:
-            printf("\n\nIngrese el primer numero:\t");
-	          scanf("%f",&num1);
-	          printf("\n\nIngrese el segundo numero:\t");
-	          scanf("%f",&num2);
-	          div=divi(num1,num2);
-	         printf("\n\nLa division del numero %.3f y el numero %.3f es:\t%.3f \n\n",a,b,div);
+            	printf("\n\nIngrese el primer numero:\t");
+	        scanf("%f",&num1);
+	        printf("\n\nIngrese el segundo numero:\t");
+	        scanf("%f",&num2);
+	        div=divi(num1,num2);
+	        printf("\n\nLa division del numero %.3f y el numero %.3f es:\t%.3f \n\n",a,b,div);
         break;
         case 4:
           //logica de cada uno
         break;
         case 5:
-          printf("El resultado es: %i\n", factorial(validacion_factorial()));
+          	printf("El resultado es: %i\n", factorial(validacion_factorial()));
         break;
         case 6:
            printf("\n\nIngrese un numero para calcular su raiz cuadrada:\t");
