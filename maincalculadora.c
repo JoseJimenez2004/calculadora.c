@@ -51,7 +51,15 @@ int main(){
           printf("El resultado es: %i\n", factorial(validacion_factorial()));
         break;
         case 6:
-          //logica de cada uno
+           printf("\n\nIngrese un numero para calcular su raiz cuadrada:\t");
+                 scanf("%f", &num);
+         if (num < 0) {
+           printf("\nNo se puede calcular la raiz cuadrada de un numero negativo.\n");
+       } else
+       {
+        float raiz = sqrt(num);
+        printf("\nLa raiz cuadrada de %.3f es:\t%.3f \n\n", num, raiz);
+		
         break;
     default:
     printf("OPCION INVALIDA\n");
