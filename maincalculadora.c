@@ -69,23 +69,21 @@ return 0;
 
 int validacion_factorial(){
   int num;
-  puts("Hola usuario!");
-  puts("Se le solicita digitar un numero natural al que quiera calcular su factorial: ");
-  scanf("%i", &num);
-
+  	puts("Hola usuario!");
+  	puts("Se le solicita digitar un numero natural al que quiera calcular su factorial: ");
+  	scanf("%i", &num);
   while (num < 0){
-    puts("NUmero no valido, intetelo de nuevo:");
-    scanf("%i", &num);
+	puts("NUmero no valido, intetelo de nuevo:");
+    	scanf("%i", &num);
   }
-
   return num;
 }
 
 int factorial(int num){
   if(num == 0)
-    return(1);
+	return(1);
   else if(num == 1)
-    return(num);
+    	return(num);
   else
-    return(num * factorial(num - 1));
+    	return(num * factorial(num - 1));
 }
