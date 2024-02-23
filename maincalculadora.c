@@ -50,7 +50,7 @@ int main(){
 	        printf("\n\nIngrese el segundo numero:\t");
 	        scanf("%f",&num2);
 	        	div=divi(num1,num2);
-	        printf("\n\nLa division del numero %.4f y el numero %.4f es:\t%.4f \n\n",a,b,div);
+	        printf("\n\nLa division del numero %.4f y el numero %.4f es:\t%.4f \n\n",div);
 		break;
         case 5:
           	printf("El resultado es: %i\n", factorial(validacion_factorial()));
