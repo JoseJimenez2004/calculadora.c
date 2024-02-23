@@ -6,9 +6,8 @@ int validacion_factorial();
 int factorial(int);
 
 int main(){
-  int opc;
-  float divi(float num1,float num2);
-  float num1, num2, resultado, mul;
+  int opc;  
+  float num1, num2, resultado, mul, div;
   printf("Bienvenidos a la calculadora\n");
   printf("Selecciona una opcion: \n");
   printf("1. Suma\n");
